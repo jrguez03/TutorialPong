@@ -50,6 +50,7 @@ public class BallBehaviour : MonoBehaviour
 
             Debug.Log("Cambiar dirección eje Y");
             //direction.y = -direction.y;
+            direction.y = Random.Range(-1f, 1f);
         }
         else if (collision.gameObject.CompareTag("Border"))
         {
