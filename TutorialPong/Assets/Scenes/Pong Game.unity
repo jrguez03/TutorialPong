@@ -484,7 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff7c837bfe5c2c3499e51f5830f977d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameScoreUI: {fileID: 0}
+  gameScoreUI: {fileID: 1047645852}
   direction: {x: 0, y: 0, z: 0}
   ballspeedinitial: 3
 --- !u!50 &464804956
@@ -1038,7 +1038,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1317672155}
   - component: {fileID: 1317672154}
-  - component: {fileID: 1317672156}
   m_Layer: 0
   m_Name: porteria player 1
   m_TagString: GoalZone1
@@ -1107,33 +1106,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &1317672156
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317672153}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 5
 --- !u!1 &1503245961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,7 +1116,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1503245963}
   - component: {fileID: 1503245962}
-  - component: {fileID: 1503245964}
   m_Layer: 0
   m_Name: porteria player 2
   m_TagString: GoalZone2
@@ -1213,33 +1184,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &1503245964
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503245961}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 5
 --- !u!1 &1914859383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,6 +1196,7 @@ GameObject:
   - component: {fileID: 1914859384}
   - component: {fileID: 1914859386}
   - component: {fileID: 1914859387}
+  - component: {fileID: 1914859388}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -1388,6 +1333,33 @@ MonoBehaviour:
   buttonDown: 115
   direction: {x: 0, y: 0, z: 0}
   speedPlayer: 5
+--- !u!50 &1914859388
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914859383}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 5
 --- !u!1 &1994371977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,6 +1440,7 @@ GameObject:
   - component: {fileID: 2065345995}
   - component: {fileID: 2065345997}
   - component: {fileID: 2065345998}
+  - component: {fileID: 2065345999}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Player
@@ -1604,6 +1577,33 @@ MonoBehaviour:
   buttonDown: 274
   direction: {x: 0, y: 0, z: 0}
   speedPlayer: 5
+--- !u!50 &2065345999
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065345994}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
